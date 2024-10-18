@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <title>Pizzaria restaurante Velho Barão</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4 ">
+        <div class="container">
+            <h1 id="header-h1" class="navbar-brand section-title m-0 me-1">Velho Barão</h1>
+            <h1 class="navbar-brand section-title titulo-flutuante me-1">Pizzaria</h1>
+            <h1 class="navbar-brand section-title titulo-flutuante me-1">E restaurante</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante " class="nav-link ">
+                            <i class=" me-1 bi bi-house-check"></i>
+                            |  Sobre o Restaurante |</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link" >
+                            <i class="me-1 bi bi-calendar2-event"></i>
+                            | Eventos |</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link" >
+                            <i class="me-1 bi bi-card-text"></i>
+                            | Menu |</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="https://wa.me/5512992399838" target="_blank" class="nav-link" src="WhatsAppButtonGreenLarge.png">
+                            <i class="me-1 bi bi-whatsapp"></i>
+                            | Contato |</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-o-restaurante">
+            <div class="pb-5 pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="3000">
+                                        <img src="imagens2/resized_square_image_1.png" class="w-100 rounded"  alt="Chamativo">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="imagens2/resized_square_image_6.png" class="w-100 rounded" alt="Fachada da pizzaria">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="imagens2/resized_square_image_4.png" class="w-100 rounded" alt="pizzas no forno">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="imagens2/resized_square_image_5.png" class="w-100 rounded" alt="Espaço interno restaurante">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                                <div class="carousel-indicators">
+                                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre <span>a pizzaria</span></h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos delectus aut ipsa quis veritatis molestias quidem maiores, quisquam deleniti dignissimos sed reprehenderit cumque excepturi numquam beatae impedit sapiente et iusto?
+    
+                            </p>
+                            <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat est id quis ex adipisci, nobis, aliquam vero corporis non voluptates dolor amet sit reiciendis. Sit obcaecati explicabo harum veniam magni.
+                            </p>
+    
+                            <h3 class="section-title">Mais <span>Opções</span></h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat est id quis ex adipisci, nobis, aliquam vero corporis non voluptates dolor amet sit reiciendis. Sit obcaecati explicabo harum veniam magni.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mt-4">
+                    <h2 class="section-title text-center">Aproveite e escolha <span>a ocasião</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="imagens2/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eveniet minima modi, accusantium non laudantium voluptates maxime tempora? Nam sequi laudantium doloremque molestiae veritatis unde quam suscipit a accusamus ducimus?</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="imagens2/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eveniet minima modi, accusantium non laudantium voluptates maxime tempora? Nam sequi laudantium doloremque molestiae veritatis unde quam suscipit a accusamus ducimus?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pt-5">Veja nos<span>sas opções</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pizzas-salgadas" class="fw-bold text-start text-colored nav-link active">Pizzas salgadas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pizzas-doces" class="fw-bold text-start text-colored nav-link ">Pizzas doces</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#porções" class="fw-bold text-start text-colored nav-link ">Porções e Pratos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start text-colored nav-link ">Bebidas alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start text-colored nav-link ">Refrigerantes e Sucos</button>
+                        </nav>
+                    </aside>     
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="pizzas-salgadas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pizzas-doces">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza doce de chocolate</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza doce de chocolate</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Pizza doce de chocolate</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="porções">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/parmegiana.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Parmegiana</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/batata.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Porção de batata com filé mignon</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/cardapio/prato.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <h5 class="text-colored mt-2 fw-bold">Panqueca</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imagens2/bebidas/BRAHMA.png" class="d-block w-100" alt="cerveja brahma">
+                                        <h5 class="text-colored mt-2 fw-bold">Cerveja BRAHMA</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/bebidas/cervejaH.png" class="d-block w-100" alt="Cerveja heineken">
+                                        <h5 class="text-colored mt-2 fw-bold">Cerveja Heineken Long Neck 330mln</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/bebidas/vinho.jpg" class="d-block w-100" alt="Vinho">
+                                        <h5 class="text-colored mt-2 fw-bold">Vinho</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imagens2/bebidas/coca-cola.jpg" class="d-block w-100" alt="cerveja brahma">
+                                        <h5 class="text-colored mt-2 fw-bold">Coca-Cola</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/bebidas/suco.jpg" class="d-block w-100" alt="Cerveja heineken">
+                                        <h5 class="text-colored mt-2 fw-bold">Suco de laranja</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens2/bebidas/SucoAbacaxi.png" class="d-block w-100" alt="Vinho">
+                                        <h5 class="text-colored mt-2 fw-bold">Suco de abacaxi</h5>
+                                        <p class="Paragrafos-em-branco">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="rodapé" class="pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                    <h2 class="section-title fs-2 text-center ">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                        Siga-nos nas <span>redes sociais</span></h2>
+                        <ul class="social-links pt-2 ">
+                            <li class="fs-1">
+                                <a href="https://www.facebook.com/pizzariavb/mentions?locale=pt_BR">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-1 p-3">
+                                <a href="https://www.instagram.com/velhobaraopizzaria/">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-1">
+                                <a href="https://wa.me/5512992399838" target="_blank" src="WhatsAppButtonGreenLarge.png" />
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="section-title fs-2 text-center">
+                            <i class="bi bi-geo-alt"></i>
+                            Endereço e <span>Localização</span></h2>
+                            <p id="endereco" class="fw-bold">R. Dr. Jose Rangel de Almeida, 29 - Centro, Bananal - SP, 12850-000</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

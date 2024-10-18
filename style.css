@@ -1,0 +1,94 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #121824;
+}
+
+#header-h1{
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #121824;
+    color: #f4cd03;
+}
+
+#cabecalho .nav .nav-link,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+
+.navbar-toggler{
+    background-color: #f4cd03;
+}
+
+.titulo-flutuante{
+    color: #f4cd03;
+}
+
+.section-title{
+    font-family: pacifico, cursive;
+}
+
+.section-title span{
+    color: #f4cd03;
+}
+
+#sobre-o-restaurante{
+    background-color:#1b2434 ;
+    color: #ccc;
+}
+
+.text-colored{
+    color: #f4cd03;
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: #121824;
+}
+
+
+.nav-cardapio .nav-link:hover{
+    color: #f4cd03;
+}
+
+#eventos{
+    background-color: #ccc;
+}
+
+#cardapio{
+    background-color: #121824;
+}
+
+.Paragrafos-em-branco{
+    color: #fff;
+}
+
+#cardapio h2{
+    color: #fff;
+}
+
+.social-links li{
+    display: inline;
+    list-style: none;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.social-links {
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+}
+
+#endereco{
+    margin-left: 200px;
+}
+
+
+

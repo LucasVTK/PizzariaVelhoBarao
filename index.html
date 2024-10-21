@@ -15,8 +15,8 @@
     <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4 ">
         <div class="container">
             <h1 id="header-h1" class="navbar-brand section-title m-0 me-1">Velho Barão</h1>
-            <h1 class="navbar-brand section-title titulo-flutuante me-1">Pizzaria</h1>
-            <h1 class="navbar-brand section-title titulo-flutuante me-1">E restaurante</h1>
+            <h1 class=" titulo-2 navbar-brand section-title titulo-flutuante me-1">Pizzaria</h1>
+            <h1 class=" titulo-2 navbar-brand section-title titulo-flutuante me-1">E restaurante</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,7 +33,7 @@
                             | Eventos |</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#cardapio" class="nav-link" >
+                        <a href="#section-menu" class="nav-link" >
                             <i class="me-1 bi bi-card-text"></i>
                             | Menu |</a>
                     </li>
@@ -101,7 +101,7 @@
         <section id="eventos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row mt-4">
-                    <h2 class="section-title text-center">Aproveite e escolha <span>a ocasião</span></h2>
+                    <h2 class="section-title text-center pt-4 pb-3">Aproveite e escolha <span>a ocasião</span></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -121,11 +121,20 @@
                 </div>
             </div>
         </section>
+        <section id="section-menu">
+    <h2 class="section-title text-center pt-5 pb-4">Veja nos<span>sas opções</span></h2>
+    <div class="container d-flex justify-content-center">
+        <p>
+            <button class="btn btn-outline-warning position-sticky" type="button" data-bs-toggle="collapse" data-bs-target="#menu-collapse">
+                <i class="bi bi-arrows-expand"></i>
+                Visualizar Menu
+            </button>
+        </p>
+    </div>
+
+    <div class="collapse" id="menu-collapse">
         <section id="cardapio" class="pt-5 pb-5">
             <div class="container">
-                <div class="row">
-                    <h2 class="section-title text-center pt-5">Veja nos<span>sas opções</span></h2>
-                </div>
                 <div class="row">
                     <aside class="col-md-2">
                         <nav class="nav nav-pills flex-column nav-cardapio">
@@ -135,13 +144,13 @@
                             <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start text-colored nav-link ">Bebidas alcoólicas</button>
                             <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start text-colored nav-link ">Refrigerantes e Sucos</button>
                         </nav>
-                    </aside>     
+                    </aside>
                     <div class="col-md-10">
                         <div class="tab-content">
                             <div class="tab-pane active" id="pizzas-salgadas">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -151,7 +160,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -161,7 +170,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -171,7 +180,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -181,7 +190,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -191,7 +200,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -201,7 +210,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -211,7 +220,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaCardapio.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza de bacon com queijos</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -225,7 +234,7 @@
                             <div class="tab-pane" id="pizzas-doces">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza doce de chocolate</h5>
                                         <div class="price">
                                             <strong>R$ 55,00</strong>
@@ -235,7 +244,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza doce de chocolate</h5>
                                         <div class="price">
                                             <strong>R$ 55,00</strong>
@@ -245,7 +254,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/PizzaDoce.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Pizza doce de chocolate</h5>
                                         <div class="price">
                                             <strong>R$ 55,00</strong>
@@ -259,7 +268,7 @@
                             <div class="tab-pane" id="porções">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/parmegiana.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/parmegiana.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Parmegiana</h5>
                                         <div class="price">
                                             <strong>R$ 65,00</strong>
@@ -269,7 +278,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/batata.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/batata.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Porção de batata com filé mignon</h5>
                                         <div class="price">
                                             <strong>R$ 75,00</strong>
@@ -279,7 +288,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/cardapio/prato.png" class="d-block w-100" alt="Pizza de bacon com queijo">
+                                        <img src="imagens2/cardapio/prato.png" class="d-block w-100 imagensClass" alt="Pizza de bacon com queijo">
                                         <h5 class="text-colored mt-2 fw-bold">Panqueca</h5>
                                         <div class="price">
                                             <strong>R$ 65,00</strong>
@@ -293,7 +302,7 @@
                             <div class="tab-pane" id="bebidas-alcoolicas">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img src="imagens2/bebidas/BRAHMA.png" class="d-block w-100" alt="cerveja brahma">
+                                        <img src="imagens2/bebidas/BRAHMA.png" class="d-block w-100 imagensClass" alt="cerveja brahma">
                                         <h5 class="text-colored mt-2 fw-bold">Cerveja BRAHMA</h5>
                                         <div class="price">
                                             <strong>R$ 10,00</strong>
@@ -303,7 +312,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/bebidas/cervejaH.png" class="d-block w-100" alt="Cerveja heineken">
+                                        <img src="imagens2/bebidas/cervejaH.png" class="d-block w-100 imagensClass" alt="Cerveja heineken">
                                         <h5 class="text-colored mt-2 fw-bold">Cerveja Heineken Long Neck 330mln</h5>
                                         <div class="price">
                                             <strong>R$ 15,00</strong>
@@ -313,7 +322,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/bebidas/vinho.jpg" class="d-block w-100" alt="Vinho">
+                                        <img src="imagens2/bebidas/vinho.jpg" class="d-block w-100 imagensClass" alt="Vinho">
                                         <h5 class="text-colored mt-2 fw-bold">Vinho taça</h5>
                                         <div class="price">
                                             <strong>R$ 20,00</strong>
@@ -327,7 +336,7 @@
                             <div class="tab-pane" id="bebidas-sem-alcool">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img src="imagens2/bebidas/coca-cola.jpg" class="d-block w-100" alt="cerveja brahma">
+                                        <img src="imagens2/bebidas/coca-cola.jpg" class="d-block w-100 imagensClass" alt="cerveja brahma">
                                         <h5 class="text-colored mt-2 fw-bold">Coca-Cola</h5>
                                         <div class="price">
                                             <strong>R$ 8,00</strong>
@@ -337,7 +346,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/bebidas/suco.jpg" class="d-block w-100" alt="Cerveja heineken">
+                                        <img src="imagens2/bebidas/suco.jpg" class="d-block w-100 imagensClass" alt="Cerveja heineken">
                                         <h5 class="text-colored mt-2 fw-bold">Suco de laranja</h5>
                                         <div class="price">
                                             <strong>R$ 10,00</strong>
@@ -347,7 +356,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img src="imagens2/bebidas/SucoAbacaxi.png" class="d-block w-100" alt="Vinho">
+                                        <img src="imagens2/bebidas/SucoAbacaxi.png" class="d-block w-100 imagensClass" alt="Vinho">
                                         <h5 class="text-colored mt-2 fw-bold">Suco de abacaxi</h5>
                                         <div class="price">
                                             <strong>R$ 10,00</strong>
@@ -358,11 +367,15 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+
+
+
                     </div>
                 </div>
             </div>
         </section>
+    </div>
+</section>
         <section id="rodapé" class="pt-3 pb-3">
             <div class="container">
                 <div class="row">
@@ -376,7 +389,7 @@
                                     <i class="bi bi-facebook text-colored"></i>
                                 </a>
                             </li>
-                            <li class="fs-1 p-3">
+                            <li class="fs-1 p-3 m-4">
                                 <a href="https://www.instagram.com/velhobaraopizzaria/">
                                     <i class="bi bi-instagram text-colored"></i>
                                 </a>

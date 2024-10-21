@@ -72,8 +72,8 @@ body{
 }
 
 .social-links li{
-    display: inline;
     list-style: none;
+    display: inline;
 }
 
 .social-links a{
@@ -81,18 +81,36 @@ body{
 }
 
 .social-links {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 #endereco{
-    margin-left: 200px;
+    margin-left: 80px;
 }
 
 .price{
     color: #fff;
 }
+
+.titulo-2:hover{
+    color: #f4cd03;
+}
+
+#section-menu{
+    background-color: #121824;
+    color: #fff;
+}
+
+.imagensClass{
+    max-width: 250px;
+}
+
+
+
+
+
 
 
 
